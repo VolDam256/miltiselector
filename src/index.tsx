@@ -1,13 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import "./fonts/fonts.css";
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+/*const SelectContents = [
+  "path/to/dataset", "path/to/newdataset", "path/to/nedata", "path/to/nedataset", "path/to/newdata", "path/to/newdata123"
+];*/
+
+const SelectContents2 = [
+  { value: "1", label: "11" }, { value: "12", label: "1212" }, { value: "123", label: "123123" }
+];
+
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <App Items={SelectContents2} />,
   document.getElementById('root')
 );
 

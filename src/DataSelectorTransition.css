@@ -1,0 +1,19 @@
+
+  .DataSelector-enter {
+    opacity: 0;
+  }
+  .DataSelector-enter-active {
+    opacity: 1;
+    transition: opacity 2000ms;
+  }
+  .DataSelector-exit {
+    opacity: 1;
+  }
+  .DataSelector-exit-active {
+    opacity: 0;
+    transition: opacity 2000ms;
+  }
+
+  .DataSelector-enter-done{
+    opacity: 1;
+  }
